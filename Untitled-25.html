@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="https://1xpto.netlify.app/items/favicon.gif" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="default.css">
+  <title>Button Border vs Outline</title>
+  <style>
+    button {
+      margin: 5px
+    }
+
+    #bt0 {
+      width: 40%;
+      height: 40vw;
+      border: 5px solid green;
+      background-color: rgb(68, 22, 152);
+      color: white;
+      font-size: 2vw;
+      font-family: arial black;
+    }
+
+    #bt1 {
+      width: calc(40% - 10px);
+      height: calc(40vw - 10px);
+      border: 1vw solid snow;
+      outline: 5px solid green;
+      background-color: rgb(73, 21, 168);
+      color: white;
+      font-size: 2vw;
+      font-family: arial black;
+    }
+  </style>
+</head>
+
+<body>
+  <img style='display: none' src='card.gif' />
+
+  <center>
+    <button id='bt0'>Responsive</button>
+    <button id='bt1'>Responsive</button>
+  </center>
+
+  <script></script>
+</body>
+
+</html>
